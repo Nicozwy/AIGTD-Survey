@@ -1,8 +1,7 @@
 # AIGTD：Recent Advances in AI-generated Text Detection
 The classification topology of AIGTD is constructed based on addressing three key challenges: classifier training, inherent attributes, and information embedding.
 
-（Coming soon... ）
-Table of Contents
+`Table of Contents`
 - Tackling Classifier Training（这里添加超链接）
 - Tackling Intrinsic Attributes（这里添加超链接）
 - Tackling Information Embedding（这里添加超链接）
@@ -25,3 +24,14 @@ xxx子方向（示例）：
 
 ## Tackling Information Embedding 
 > @CHR
+
+
+## Citation
+If you find this project useful in your research or work, please consider citing it:
+
+```
+Coming soon...
+```
+
+
+## Acknowledgements
