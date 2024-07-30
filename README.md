@@ -1,4 +1,4 @@
-# Recent Advances in AI-generated Text Detection (AIGTD)
+# AIGTD：Recent Advances in AI-generated Text Detection
 The classification topology of AIGTD is constructed based on addressing three key challenges: classifier training, inherent attributes, and information embedding.
 
 （Coming soon... ）
