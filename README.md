@@ -12,7 +12,52 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 
 ## Tackling Classifier Training
-> @ZHH
+1. Chuck Rosenberg, Martial Hebert, and Henry Schneiderman. Semisupervised self-training of object detection models. 2005. [[paper] (https://www.ri.cmu.edu/pub_files/pub4/rosenberg_charles_2005_1/rosenberg_charles_2005_1.pdf)]
+
+2. Abhinav Shrivastava, Abhinav Gupta, and Ross Girshick. Training region-based object detectors with online hard example mining. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 761–769, 2016. [[paper] (https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf)]
+
+3. Beliz Gunel, Jingfei Du, Alexis Conneau, and Ves Stoyanov. Supervised contrastive learning for pre-trained language model fine-tuning. arXiv preprint arXiv:2011.01403, 2020. [[paper](https://arxiv.org/pdf/2011.01403)]
+
+### Feature Analysis
+
+#### Structural-based Analysis
+1. Xiaoming Liu, Zhaohan Zhang, Yichen Wang, Hang Pu, Yu Lan, and Chao Shen. Coco: Coherence-enhanced machine-generated text detection under data limitation with contrastive learning. arXiv preprint arXiv:2212.10341, 2022. [[paper](https://arxiv.org/pdf/2212.10341)]
+
+#### Partial Access
+1. Yi Xu, Jie Hu, Zhiqiao Gao, and Jinpeng Chen. Ucl-ast: Active self-training with uncertainty-aware clouded logits for few-shot text classification. In 2022 IEEE 34th International Conference on Tools with Artificial Intelligence (ICTAI), pages 1390–1395. IEEE, 2022. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10097942)]
+
+2. Pengyu Wang, Linyang Li, Ke Ren, Botian Jiang, Dong Zhang, and Xipeng Qiu. Seqxgpt: Sentence-level ai-generated text detection. arXiv preprint arXiv:2310.08903, 2023. [[paper](https://arxiv.org/pdf/2310.08903)]
+
+#### Network Reconstruction
+1. Guanhua Huang, Yuchen Zhang, Zhe Li, Yongjian You, Mingze Wang, and Zhouwang Yang. Are ai-generated text detectors robust to adversarial perturbations? arXiv preprint arXiv:2406.01179, 2024. [[paper](https://arxiv.org/pdf/2406.01179)]
+
+### Probability and Statistics
+
+#### Probability-based Model
+1. Kangxi Wu, Liang Pang, Huawei Shen, Xueqi Cheng, and Tat-Seng Chua. Llmdet: A large language models detection tool. arXiv preprint arXiv:2305.15004, 2023. [[paper](https://arxiv.org/pdf/2305.15004)]
+
+2. Vivek Verma, Eve Fleisig, Nicholas Tomlin, and Dan Klein. Ghostbuster: Detecting text ghostwritten by large language models. arXiv preprint arXiv:2305.15047, 2023. [[paper](https://arxiv.org/pdf/2305.15047)]
+
+### Deep Learning
+
+#### Positiva Unlabeled
+1. Yuchuan Tian, Hanting Chen, Xutao Wang, Zheyuan Bai, Qinghua Zhang, Ruifeng Li, Chao Xu, and Yunhe Wang. Multiscale positive-unlabeled detection of ai-generated texts. arXiv preprint arXiv:2305.18149, 2023. [[paper](https://arxiv.org/pdf/2305.18149)]
+
+#### Adversarial Training
+1. Ying Zhou, Ben He, and Le Sun. Humanizing machine-generated content: Evading ai-text detection through adversarial attack. arXiv preprint arXiv:2404.01907, 2024. [[paper](https://arxiv.org/pdf/2404.01907)]
+
+2. Xiaomeng Hu, Pin-Yu Chen, and Tsung-Yi Ho. Radar: Robust ai-text detection via adversarial learning. Advances in Neural Information Processing Systems, 36:15077–15095, 2023. [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/30e15e5941ae0cdab7ef58cc8d59a4ca-Paper-Conference.pdf)]
+
+#### Transfer Training
+1. Eric Chu, Jacob Andreas, Stephen Ansolabehere, and Deb Roy. Language models trained on media diets can predict public opinion. arXiv preprint arXiv:2303.16779, 2023. [[paper](https://arxiv.org/pdf/2303.16779)]
+
+2. Hans WA Hanley and Zakir Durumeric. Machine-made media: Monitoring the mobilization of machine-generated articles on misinformation and mainstream news websites. In Proceedings of the International AAAI Conference on Web and Social Media, volume 18, pages 542–556, 2024. [[paper](https://ojs.aaai.org/index.php/ICWSM/article/view/31333/33493)]
+
+3. Amrita Bhattacharjee, Tharindu Kumarage, Raha Moraffah, and Huan Liu. Conda: Contrastive domain adaptation for ai-generated text detection. arXiv preprint arXiv:2309.03992, 2023. [[paper](https://arxiv.org/pdf/2309.03992)]
+
+#### BERT
+1. Hao Wang, Jianwei Li, and Zhengyu Li. Ai-generated text detection and classification based on bert deep learning algorithm. arXiv preprint arXiv:2405.16422, 2024. [[paper](https://arxiv.org/pdf/2405.16422)]
+
 
 
 |       Name       | Black box | White box | Unknown |
