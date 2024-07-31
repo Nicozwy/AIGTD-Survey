@@ -5,6 +5,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 - [Tackling Classifier Training](#tackling-classifier-training)
 - [Tackling Intrinsic Attributes](#tackling-intrinsic-attributes)
 - [Tackling Information Embedding](#tackling-information-embedding)
+- [Dataset collation](#dataset-collation)
 - [Citation](#citation)
   
 >  @FZJ负责协调、进度把控；
@@ -14,9 +15,47 @@ The classification topology of AIGTD is constructed based on addressing three ke
 > @ZHH
 
 
+|       Name       | Black box | White box | Unknown |
+| :--------------: | :-------: | :-------: | :-----: |
+|       GCN        |     ✔️     |           |         |
+| Logits as waves  |           |     ✔️     |         |
+|     SeqXGPT      |           |     ✔️     |         |
+|       SCRN       |           |     ✔️     |         |
+| Proxy perplexity |     ✔️     |           |         |
+|   Ghostbuster    |     ✔️     |           |         |
+|       MPU        |           |     ✔️     |         |
+|      RADAR       |     ✔️     |           |         |
+|      conDA       |     ✔️     |           |         |
+|       BERT       |           |     ✔️     |         |
+
 
 ## Tackling Intrinsic Attributes
-> @NRC
+
+
+### Feature Extraction
+1. Farhad Pourpanah, Moloud Abdar, Yuxuan Luo, Xinlei Zhou, Ran Wang, Chee Peng Lim, Xi-Zhao Wang, and QM Jonathan Wu. A review of generalized zero-shot learning methods. IEEE transactions on pattern analysis and machine intelligence, 45(4):4051–4070, 2022. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9832795)]
+2. Wei Wang, Vincent W Zheng, Han Yu, and Chunyan Miao. A survey of zero-shot learning: Settings, methods, and applications. ACM Transactions on Intelligent Systems and Technology (TIST), 10(2):1–37, 2019. [[paper](https://dl.acm.org/doi/pdf/10.1145/3293318?casa_token=C2rZx_nhOOwAAAAA:FgIsDW_L0FRdQhZxC59XvJfp9S4P8AXZqW00NHz7gEW8JeWj7sqnUAFTOmYvuwyx_vlnhVhe4swv)]
+3. Jinyan Su, Terry Yue Zhuo, Di Wang, and Preslav Nakov. Detectllm: Leveraging log rank information for zero-shot detection of machinegenerated text. arXiv preprint arXiv:2306.05540, 2023. [[paper](https://arxiv.org/pdf/2306.05540)]
+4. Xianjun Yang, Wei Cheng, Yue Wu, Linda Petzold, William Yang Wang, and Haifeng Chen. Dna-gpt: Divergent n-gram analysis for training-free detection of gpt-generated text. arXiv preprint arXiv:2305.17359, 2023. [[paper](https://arxiv.org/pdf/2305.17359)]
+5. Eduard Tulchinskii, Kristian Kuznetsov, Laida Kushnareva, Daniil Cherniavskii, Sergey Nikolenko, Evgeny Burnaev, Serguei Barannikov, and Irina Piontkovskaya. Intrinsic dimension estimation for robust detection of ai-generated texts. Advances in Neural Information Processing Systems, 36, 2024. [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/7baa48bc166aa2013d78cbdc15010530-Paper-Conference.pdf)]
+
+### Probability-based
+
+
+|      Name       | Black box | White box | Unknown |
+| :-------------: | :-------: | :-------: | :-----: |
+|       LRR       |           |     ✔️     |         |
+|     N-Gram      |     ✔️     |           |         |
+| Inter Dimension |     ✔️     |           |         |
+|    DetectGPT    |     ✔️     |           |         |
+|    OPT-125M     |           |           |    ✔️    |
+|   Divergence    |           |     ✔️     |         |
+|    Curvature    |     ✔️     |     ✔️     |         |
+|       MMD       |     ✔️     |           |         |
+|      BERT       |     ✔️     |           |         |
+|     ChatGPT     |     ✔️     |           |         |
+|     Mixing      |           |     ✔️     |         |
+
 
 
 ## Tackling Information Embedding
@@ -64,6 +103,27 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 3. Massieh Kordi Boroujeny, Ya Jiang, Kai Zeng, and Brian Mark. Multi-bit distortion-free watermarking for large language models. arXiv preprint arXiv:2402.16578, 2024. [[paper](https://arxiv.org/pdf/2402.16578)]
 
+## Dataset collation
+
+|   Datasets   |  Size   |               Data Description               |
+| :----------: | :-----: | :------------------------------------------: |
+| TuringBench  |   200   |                News articles                 |
+|     HC3      | 44,425  |   Reddit, Wikipedia, medicine and finance    |
+|    CHEAT     | 35,304  |              Academic abstracts              |
+| Ghostbuster  | 12,685  |  Student essays, creative fiction, and news  |
+| GPT-Sentinel | 29,395  |                 OpenWebText                  |
+|      M4      | 122,481 |                Multi-domains                 |
+|   MGTBench   |  2,817  |         Question-answering datasets          |
+|   HC3 Plus   | 214,498 | Summarization, translation, and paraphrasing |
+|  MULTITuDE   | 74,081  |                 MassiveSumm                  |
+|      \-      |  1,378  |        Public dataset, unknown source        |
+|      \-      |   \-    |       Self-built hotel review dataset        |
+|   OpenGen    |  3,000  | 3,000 randomly selected two-sentence blocks  |
+|   C4 News    |   \-    |                15GB news data                |
+|    Alpaca    |   \-    |    Used for question and answer task test    |
+|      C4      |   \-    |     Used for open text generation tasks      |
+|    Grover    |   \-    |     News generator based on Transformer      |
+|     XSum     |   \-    |                News articles                 |
 
 ## Citation
 If you find this project useful in your research or work, please consider citing it:
