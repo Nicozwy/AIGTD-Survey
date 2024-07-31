@@ -55,7 +55,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 3. Amrita Bhattacharjee, Tharindu Kumarage, Raha Moraffah, and Huan Liu. Conda: Contrastive domain adaptation for ai-generated text detection. arXiv preprint arXiv:2309.03992, 2023. [[paper](https://arxiv.org/pdf/2309.03992)]
 
-#### BERT
+#### BERT-DLA
 1. Hao Wang, Jianwei Li, and Zhengyu Li. Ai-generated text detection and classification based on bert deep learning algorithm. arXiv preprint arXiv:2405.16422, 2024. [[paper](https://arxiv.org/pdf/2405.16422)]
 
 
