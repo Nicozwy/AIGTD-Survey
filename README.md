@@ -3,9 +3,9 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 `Table of Contents`
 - [Tackling Classifier Training](#tackling-classifier-training)
-- Tackling Intrinsic Attributes（这里添加超链接）
-- Tackling Information Embedding（这里添加超链接）
-
+- [Tackling Intrinsic Attributes](#tackling-intrinsic-attributes)
+- [Tackling Information Embedding](#tackling-information-embedding)
+- [Citation](#citation)
   
 >  @FZJ负责协调、进度把控；
 
@@ -37,3 +37,5 @@ Coming soon...
 
 ## Acknowledgements
 Your contributions will be acknowledged. 
+
+[Github Flavored Markdown](https://github.com/guodongxiaren/README)
