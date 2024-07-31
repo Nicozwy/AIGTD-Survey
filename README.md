@@ -54,6 +54,7 @@ xxx子方向（示例）：
 2. Scott Aaronson, Jiahui Liu, Qipeng Liu, Mark Zhandry, and Ruizhe Zhang. New approaches for quantum copy-protection. In Advances in Cryptology–CRYPTO 2021: 41st Annual International Cryptology Conference, CRYPTO 2021, Virtual Event, August 16–20, 2021, Proceedings, Part I 41, pages 526–555. Springer, 2021. [[paper](https://arxiv.org/pdf/2004.09674)]
 
 ###  Training-based
+#### Message Encoding
 1. Han Fang, Zhaoyang Jia, Hang Zhou, Zehua Ma, and Weiming Zhang. Encoded feature enhancement in watermarking network for distortion in real scenes. IEEE Transactions on Multimedia, 2022. [[paper](http://staff.ustc.edu.cn/~zhangwm/Paper/2022_19.pdf)]
 
 2. Ruisi Zhang, Shehzeen Samarah Hussain, Paarth Neekhara, and Farinaz Koushanfar. Remark-llm: A robust and efficient watermarking framework for generative large language models. arXiv preprint arXiv:2310.12362, 2023. [[paper](https://arxiv.org/pdf/2310.12362)]
