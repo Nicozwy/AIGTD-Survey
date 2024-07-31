@@ -2,9 +2,10 @@
 The classification topology of AIGTD is constructed based on addressing three key challenges: classifier training, inherent attributes, and information embedding.
 
 `Table of Contents`
-- Tackling Classifier Training（这里添加超链接）
+- [Tackling Classifier Training](#tackling-classifier-training)
 - Tackling Intrinsic Attributes（这里添加超链接）
 - Tackling Information Embedding（这里添加超链接）
+
   
 >  @FZJ负责协调、进度把控；
 
