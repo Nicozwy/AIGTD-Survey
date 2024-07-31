@@ -9,10 +9,6 @@ The classification topology of AIGTD is constructed based on addressing three ke
   
 >  @FZJ负责协调、进度把控；
 
-xxx子方向（示例）：
-
-1. Yang Z, Ma J, Chen H, et al. A Coarse-to-fine Cascaded Evidence-Distillation Neural Network for Explainable Fake News Detection[C]//Proceedings of the 29th International Conference on Computational Linguistics. 2022: 2608-2621. [[paper](https://aclanthology.org/2022.coling-1.230.pdf)]
-2. ...
 
 ## Tackling Classifier Training
 > @ZHH
