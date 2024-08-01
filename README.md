@@ -8,7 +8,9 @@ The papers are organized according to our survey: AIGTD: A Comprehensive Survey 
 
 The classification topology of AIGTD is constructed based on addressing three key challenges: classifier training, inherent attributes, and information embedding.
 
-`Table of Contents`
+**Note:** We will keep updating to make this survey perfect. 
+
+## Table of Contents
 - [Tackling Classifier Training](#tackling-classifier-training)
 - [Tackling Intrinsic Attributes](#tackling-intrinsic-attributes)
 - [Tackling Information Embedding](#tackling-information-embedding)
