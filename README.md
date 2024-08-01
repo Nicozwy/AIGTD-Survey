@@ -1,4 +1,11 @@
-# AIGTD：Recent Advances in AI-generated Text Detection
+<div align="center">
+  <img src="imgs/AIGTD-logo.png" alt="AIGTD Survey" width="500"><br>
+  A Comprehensive Survey on Recent Advances in AI-Generated Text Detection
+</div>
+
+# Collection of papers and resources for AIGTD
+The papers are organized according to our survey: AIGTD: A Comprehensive Survey on Recent Advances in AI-Generated Text Detection. 
+
 The classification topology of AIGTD is constructed based on addressing three key challenges: classifier training, inherent attributes, and information embedding.
 
 `Table of Contents`
@@ -7,9 +14,6 @@ The classification topology of AIGTD is constructed based on addressing three ke
 - [Tackling Information Embedding](#tackling-information-embedding)
 - [Dataset collation](#dataset-collation)
 - [Citation](#citation)
-  
->  @FZJ负责协调、进度把控；
-
 
 ## Tackling Classifier Training
 1. Chuck Rosenberg, Martial Hebert, and Henry Schneiderman. Semisupervised self-training of object detection models. 2005. [[paper] (https://www.ri.cmu.edu/pub_files/pub4/rosenberg_charles_2005_1/rosenberg_charles_2005_1.pdf)]
