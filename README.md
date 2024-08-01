@@ -4,7 +4,7 @@
 </div>
 
 # Collection of papers and resources for AIGTD
-The papers are organized according to our survey: AIGTD: A Comprehensive Survey on Recent Advances in AI-Generated Text Detection. 
+The papers are organized according to our AIGTD survey: [The Imitation Game Revisited: A Comprehensive Survey on Recent Advances in AI-Generated Text Detection](https://github.com/Nicozwy/AIGTD-Survey/edit/main). 
 
 The classification topology of AIGTD is constructed based on addressing three key challenges: classifier training, inherent attributes, and information embedding.
 
