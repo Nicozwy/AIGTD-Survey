@@ -81,17 +81,57 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 
 ## Tackling Intrinsic Attributes
+1. Nathan Benaich and Ian Hogarth. State of ai report. London, UK.[Google Scholar], 2020. [[paper]](https://www.aiunplugged.io/wp-content/uploads/2023/10/State-of-AI-Report-2023.pdf)
+2. Yuhong Mo, Hao Qin, Yushan Dong, Ziyi Zhu, and Zhenglin Li. Large language model (llm) ai text generation detection based on transformer deep learning algorithm. arXiv preprint arXiv:2405.06652, 2024. [[paper]](https://arxiv.org/pdf/2405.06652)
+3. Rongsheng Wang, Haoming Chen, Ruizhe Zhou, Han Ma, Yaofei Duan, Yanlan Kang, Songhua Yang, Baoyu Fan, and Tao Tan. Llm-detector: Improving ai-generated chinese text detection with open-source llm instruction tuning. arXiv preprint arXiv:2402.01158, 2024. [[paper]](https://arxiv.org/pdf/2402.01158)
+4. Farhad Pourpanah, Moloud Abdar, Yuxuan Luo, Xinlei Zhou, Ran Wang, Chee Peng Lim, Xi-Zhao Wang, and QM Jonathan Wu. A review of generalized zero-shot learning methods. IEEE transactions on pattern analysis and machine intelligence, 45(4):4051–4070, 2022. [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9832795)
+5. Wei Wang, Vincent W Zheng, Han Yu, and Chunyan Miao. A survey of zero-shot learning: Settings, methods, and applications. ACM Transactions on Intelligent Systems and Technology (TIST), 10(2):1–37, 2019. [[paper]](https://dl.acm.org/doi/pdf/10.1145/3293318?casa_token=C2rZx_nhOOwAAAAA:FgIsDW_L0FRdQhZxC59XvJfp9S4P8AXZqW00NHz7gEW8JeWj7sqnUAFTOmYvuwyx_vlnhVhe4swv)
 
 
 ### Feature Extraction
-1. Farhad Pourpanah, Moloud Abdar, Yuxuan Luo, Xinlei Zhou, Ran Wang, Chee Peng Lim, Xi-Zhao Wang, and QM Jonathan Wu. A review of generalized zero-shot learning methods. IEEE transactions on pattern analysis and machine intelligence, 45(4):4051–4070, 2022. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9832795)]
-2. Wei Wang, Vincent W Zheng, Han Yu, and Chunyan Miao. A survey of zero-shot learning: Settings, methods, and applications. ACM Transactions on Intelligent Systems and Technology (TIST), 10(2):1–37, 2019. [[paper](https://dl.acm.org/doi/pdf/10.1145/3293318?casa_token=C2rZx_nhOOwAAAAA:FgIsDW_L0FRdQhZxC59XvJfp9S4P8AXZqW00NHz7gEW8JeWj7sqnUAFTOmYvuwyx_vlnhVhe4swv)]
-3. Jinyan Su, Terry Yue Zhuo, Di Wang, and Preslav Nakov. Detectllm: Leveraging log rank information for zero-shot detection of machinegenerated text. arXiv preprint arXiv:2306.05540, 2023. [[paper](https://arxiv.org/pdf/2306.05540)]
-4. Xianjun Yang, Wei Cheng, Yue Wu, Linda Petzold, William Yang Wang, and Haifeng Chen. Dna-gpt: Divergent n-gram analysis for training-free detection of gpt-generated text. arXiv preprint arXiv:2305.17359, 2023. [[paper](https://arxiv.org/pdf/2305.17359)]
-5. Eduard Tulchinskii, Kristian Kuznetsov, Laida Kushnareva, Daniil Cherniavskii, Sergey Nikolenko, Evgeny Burnaev, Serguei Barannikov, and Irina Piontkovskaya. Intrinsic dimension estimation for robust detection of ai-generated texts. Advances in Neural Information Processing Systems, 36, 2024. [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/7baa48bc166aa2013d78cbdc15010530-Paper-Conference.pdf)]
+
+#### Logarithmic Ranking
+
+1. Jinyan Su, Terry Yue Zhuo, Di Wang, and Preslav Nakov. Detectllm: Leveraging log rank information for zero-shot detection of machinegenerated text. arXiv preprint arXiv:2306.05540, 2023. [[paper]](https://arxiv.org/pdf/2306.05540)
+
+#### N-gram with BScore
+
+1. Xianjun Yang, Wei Cheng, Yue Wu, Linda Petzold, William Yang Wang, and Haifeng Chen. Dna-gpt: Divergent n-gram analysis for training-free detection of gpt-generated text. arXiv preprint arXiv:2305.17359, 2023. [[paper]](https://arxiv.org/pdf/2305.17359)
+
+#### Internal Dimension
+1. Eduard Tulchinskii, Kristian Kuznetsov, Laida Kushnareva, Daniil Cherniavskii, Sergey Nikolenko, Evgeny Burnaev, Serguei Barannikov, and Irina Piontkovskaya. Intrinsic dimension estimation for robust detection of ai-generated texts. Advances in Neural Information Processing Systems, 36, 2024. [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/7baa48bc166aa2013d78cbdc15010530-Paper-Conference.pdf)
 
 ### Probability-based
 
+#### Conditional Probability
+
+1. Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D Manning, and Chelsea Finn. Detectgpt: Zero-shot machine-generated text detection using probability curvature. In International Conference on Machine Learning, pages 24950–24962. PMLR, 2023. [[paper]](https://proceedings.mlr.press/v202/mitchell23a/mitchell23a.pdf)
+2. Shengchao Liu, Xiaoming Liu, Yichen Wang, Zehua Cheng, Chengzhengxu Li, Zhaohan Zhang, Yu Lan, and Chao Shen. Does∖textsc {DetectGPT} fully utilize perturbation? selective perturbation on model-based contrastive learning detector would be better. arXiv preprint arXiv:2402.00263, 2024. [[paper]](https://arxiv.org/pdf/2402.00263)
+
+
+#### Probability Curvature
+
+1. Niloofar Mireshghallah, Justus Mattern, Sicun Gao, Reza Shokri, and Taylor Berg-Kirkpatrick. Smaller language models are better black-box machine-generated text detectors. arXiv preprint arXiv:2305.09859, 2023. [[paper]](https://arxiv.org/pdf/2305.09859)
+2. Xianjun Yang, Wei Cheng, Yue Wu, Linda Petzold, William Yang Wang, and Haifeng Chen. Dna-gpt: Divergent n-gram analysis for training-free detection of gpt-generated text. arXiv preprint arXiv:2305.17359, 2023 [[paper]](https://arxiv.org/pdf/2305.17359)
+3. Guangsheng Bao, Yanbin Zhao, Zhiyang Teng, Linyi Yang, and Yue Zhang. Fast-detectgpt: Efficient zero-shot detection of machinegenerated text via conditional probability curvature. arXiv preprint arXiv:2310.05130, 2023. [[paper]](https://arxiv.org/pdf/2310.05130)
+
+#### Distribution Difference
+
+1. Shuhai Zhang, Feng Liu, Jiahao Yang, Yifan Yang, Changsheng Li, Bo Han, and Mingkui Tan. Detecting machine-generated texts by multi-population aware optimization for maximum mean discrepancy. arXiv preprint arXiv:2402.16041, 2024. [[paper]](https://arxiv.org/pdf/2402.16041)
+
+### Epidemic Model
+
+#### BERT
+
+1. Utsho Chakraborty, Jaydeep Gheewala, Sheshang Degadwala, Dhairya Vyas, and Mukesh Soni. Safeguarding authenticity in text with bert-powered detection of ai-generated content. In 2024 International Conference on Inventive Computation Technologies (ICICT), pages 34–37. IEEE, 2024 [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10544590)
+
+#### ChatGPT
+
+1. David M Markowitz, Jeffrey T Hancock, and Jeremy N Bailenson. Linguistic markers of inherently false ai communication and intentionally false human communication: Evidence from hotel reviews. Journal of Language and Social Psychology, 43(1):63–82, 2024. [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download)
+
+#### Model Mixing
+
+1. Yuhong Mo, Hao Qin, Yushan Dong, Ziyi Zhu, and Zhenglin Li. Large language model (llm) ai text generation detection based on transformer deep learning algorithm. arXiv preprint arXiv:2405.06652, 2024. [[paper]](https://arxiv.org/pdf/2405.06652)
 
 |      Name       | Black box | White box | Unknown |
 | :-------------: | :-------: | :-------: | :-----: |
@@ -158,23 +198,23 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 |   Datasets   |  Size   |               Data Description               |
 | :----------: | :-----: | :------------------------------------------: |
-| TuringBench  |   200   |                News articles                 |
-|     HC3      | 44,425  |   Reddit, Wikipedia, medicine and finance    |
-|    CHEAT     | 35,304  |              Academic abstracts              |
-| Ghostbuster  | 12,685  |  Student essays, creative fiction, and news  |
-| GPT-Sentinel | 29,395  |                 OpenWebText                  |
+| TuringBench [[paper](https://arxiv.org/pdf/2310.08903)] [[paper](https://arxiv.org/pdf/2405.16422)] [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9832795) |   200   |                News articles                 |
+|     HC3 [[paper]](https://arxiv.org/pdf/2402.16041)     | 44,425  |   Reddit, Wikipedia, medicine and finance    |
+|    CHEAT  [[paper](https://arxiv.org/pdf/2303.16779)] | 35,304  |              Academic abstracts              |
+| Ghostbuster [[paper](https://arxiv.org/pdf/2305.15047)] | 12,685  |  Student essays, creative fiction, and news  |
+| GPT-Sentinel [[paper](https://arxiv.org/pdf/2310.08903)] | 29,395  |                 OpenWebText                  |
 |      M4      | 122,481 |                Multi-domains                 |
-|   MGTBench   |  2,817  |         Question-answering datasets          |
-|   HC3 Plus   | 214,498 | Summarization, translation, and paraphrasing |
+|   MGTBench [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download)  |  2,817  |         Question-answering datasets          |
+|   HC3 Plus [[paper](https://arxiv.org/pdf/2305.18149)] | 214,498 | Summarization, translation, and paraphrasing |
 |  MULTITuDE   | 74,081  |                 MassiveSumm                  |
-|      \-      |  1,378  |        Public dataset, unknown source        |
-|      \-      |   \-    |       Self-built hotel review dataset        |
-|   OpenGen    |  3,000  | 3,000 randomly selected two-sentence blocks  |
-|   C4 News    |   \-    |                15GB news data                |
-|    Alpaca    |   \-    |    Used for question and answer task test    |
-|      C4      |   \-    |     Used for open text generation tasks      |
-|    Grover    |   \-    |     News generator based on Transformer      |
-|     XSum     |   \-    |                News articles                 |
+|      \-   [[paper](https://arxiv.org/pdf/2405.16422)] [[paper]](https://arxiv.org/pdf/2405.06652) |  1,378  |        Public dataset, unknown source        |
+|      \-   [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download)   |   \-    |       Self-built hotel review dataset        |
+|   OpenGen  [[paper](https://arxiv.org/pdf/2401.16820)]  |  3,000  | 3,000 randomly selected two-sentence blocks  |
+|   C4 News   [[paper](https://arxiv.org/pdf/2401.16820)] |   \-    |                15GB news data                |
+|    Alpaca  [[paper](https://arxiv.org/pdf/2306.17439)]  |   \-    |    Used for question and answer task test    |
+|      C4    [[paper](https://arxiv.org/pdf/2402.11399)] [[paper](https://arxiv.org/pdf/2306.17439)]  |   \-    |     Used for open text generation tasks      |
+|    Grover  [[paper]](https://arxiv.org/pdf/2402.00263)  |   \-    |     News generator based on Transformer      |
+|     XSum   [[paper]](https://arxiv.org/pdf/2402.16041)  |   \-    |                News articles                 |
 
 ## Citation
 If you find this project useful in your research or work, please consider citing it:
