@@ -210,9 +210,9 @@ The classification topology of AIGTD is constructed based on addressing three ke
 |      \-   [[paper](https://arxiv.org/pdf/2405.16422)] [[paper]](https://arxiv.org/pdf/2405.06652) |  1,378  |        Public dataset, unknown source        |
 |      \-   [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download)   |   \-    |       Self-built hotel review dataset        |
 |   OpenGen  [[paper](https://arxiv.org/pdf/2401.16820)]  |  3,000  | 3,000 randomly selected two-sentence blocks  |
-|   C4 News   [[paper](https://arxiv.org/pdf/2401.16820)] |   \-    |                15GB news data                |
 |    Alpaca  [[paper](https://arxiv.org/pdf/2306.17439)]  |   \-    |    Used for question and answer task test    |
 |      C4    [[paper](https://www.jmlr.org/papers/v21/20-074.html)] [[paper](https://arxiv.org/pdf/2402.11399)] [[paper](https://arxiv.org/pdf/2306.17439)]  |   \-    |  Colossal Clean Crawled Corpus:  Used for open text generation tasks      |
+|   C4 News   [[paper](https://arxiv.org/pdf/2401.16820)] |   \-    |                15GB news data                |
 |    Grover  [[paper]](https://arxiv.org/pdf/2402.00263)  |   \-    |     News generator based on Transformer      |
 |     XSum   [[paper]](https://arxiv.org/pdf/2402.16041)  |   \-    |                News articles                 |
 |     WikiText    [[paper]](https://arxiv.org/html/2402.17938v1) |   \-    |  Wiki text for language model training and evaluation |
