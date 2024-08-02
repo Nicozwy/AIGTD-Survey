@@ -18,11 +18,11 @@ The classification topology of AIGTD is constructed based on addressing three ke
 - [Citation](#citation)
 
 ## Tackling Classifier Training
-1. Chuck Rosenberg, Martial Hebert, and Henry Schneiderman. Semisupervised self-training of object detection models. 2005. [[paper] (https://www.ri.cmu.edu/pub_files/pub4/rosenberg_charles_2005_1/rosenberg_charles_2005_1.pdf)]
+1. Chuck Rosenberg, Martial Hebert, and Henry Schneiderman. Semisupervised self-training of object detection models. In Proceedings of the Seventh IEEE Workshops on Application of Computer Vision, pages 29–36, 2005. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4129456)]
 
-2. Abhinav Shrivastava, Abhinav Gupta, and Ross Girshick. Training region-based object detectors with online hard example mining. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 761–769, 2016. [[paper] (https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf)]
+2. Abhinav Shrivastava, Abhinav Gupta, and Ross Girshick. Training region-based object detectors with online hard example mining. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 761–769, 2016. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7780458)]
 
-3. Beliz Gunel, Jingfei Du, Alexis Conneau, and Ves Stoyanov. Supervised contrastive learning for pre-trained language model fine-tuning. arXiv preprint arXiv:2011.01403, 2020. [[paper](https://arxiv.org/pdf/2011.01403)]
+3. Beliz Gunel, Jingfei Du, Alexis Conneau, and Veselin Stoyanov. Supervised contrastive learning for pre-trained language model finetuning. In International Conference on Learning Representations, pages 1–15, 2021. [[paper](https://openreview.net/pdf?id=cu7IUiOhujH)]
 
 ### Feature Analysis
 
@@ -32,7 +32,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 #### Partial Access
 1. Yi Xu, Jie Hu, Zhiqiao Gao, and Jinpeng Chen. Ucl-ast: Active self-training with uncertainty-aware clouded logits for few-shot text classification. In 2022 IEEE 34th International Conference on Tools with Artificial Intelligence (ICTAI), pages 1390–1395. IEEE, 2022. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10097942)]
 
-2. Pengyu Wang, Linyang Li, Ke Ren, Botian Jiang, Dong Zhang, and Xipeng Qiu. Seqxgpt: Sentence-level ai-generated text detection. arXiv preprint arXiv:2310.08903, 2023. [[paper](https://arxiv.org/pdf/2310.08903)]
+2. Pengyu Wang, Linyang Li, Ke Ren, Botian Jiang, Dong Zhang, and Xipeng Qiu. Seqxgpt: Sentence-level ai-generated text detection. In Proceedings of the Conference on Empirical Methods in Natural Language Processing, pages 1144–1156, 2023. [[paper](https://arxiv.org/pdf/2310.08903)]
 
 #### Network Reconstruction
 1. Guanhua Huang, Yuchen Zhang, Zhe Li, Yongjian You, Mingze Wang, and Zhouwang Yang. Are ai-generated text detectors robust to adversarial perturbations? arXiv preprint arXiv:2406.01179, 2024. [[paper](https://arxiv.org/pdf/2406.01179)]
@@ -40,17 +40,17 @@ The classification topology of AIGTD is constructed based on addressing three ke
 ### Probability and Statistics
 
 #### Probability-based Model
-1. Kangxi Wu, Liang Pang, Huawei Shen, Xueqi Cheng, and Tat-Seng Chua. Llmdet: A large language models detection tool. arXiv preprint arXiv:2305.15004, 2023. [[paper](https://arxiv.org/pdf/2305.15004)]
+1. Kangxi Wu, Liang Pang, Huawei Shen, Xueqi Cheng, and Tat-Seng Chua. Llmdet: A third party large language models generated text detection tool. In Findings of the Association for Computational Linguistics: EMNLP, pages 2113–2133, 2023. [[paper](https://arxiv.org/pdf/2305.15004)]
 
-2. Vivek Verma, Eve Fleisig, Nicholas Tomlin, and Dan Klein. Ghostbuster: Detecting text ghostwritten by large language models. arXiv preprint arXiv:2305.15047, 2023. [[paper](https://arxiv.org/pdf/2305.15047)]
+2. Vivek Verma, Eve Fleisig, Nicholas Tomlin, and Dan Klein. Ghostbuster: Detecting text ghostwritten by large language models. In Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics, pages 1702–1717, 2024. [[paper](https://arxiv.org/pdf/2305.15047)]
 
 ### Deep Learning
 
 #### Positiva Unlabeled
-1. Yuchuan Tian, Hanting Chen, Xutao Wang, Zheyuan Bai, Qinghua Zhang, Ruifeng Li, Chao Xu, and Yunhe Wang. Multiscale positive-unlabeled detection of ai-generated texts. arXiv preprint arXiv:2305.18149, 2023. [[paper](https://arxiv.org/pdf/2305.18149)]
+1. Yuchuan Tian, Hanting Chen, Xutao Wang, Zheyuan Bai, Qinghua Zhang, Ruifeng Li, Chao Xu, and Yunhe Wang. Multiscale positive unlabeled detection of ai-generated texts. In International Conference on Learning Representations, 2024. [[paper](https://openreview.net/pdf?id=5Lp6qU9hzV)]
 
 #### Adversarial Training
-1. Ying Zhou, Ben He, and Le Sun. Humanizing machine-generated content: Evading ai-text detection through adversarial attack. arXiv preprint arXiv:2404.01907, 2024. [[paper](https://arxiv.org/pdf/2404.01907)]
+1. Ying Zhou, Ben He, and Le Sun. Humanizing machine-generated content: Evading ai-text detection through adversarial attack. In Proceedings of the Joint International Conference on Computational Linguistics, Language Resources and Evaluation, pages 8427–8437, 2024. [[paper](https://arxiv.org/pdf/2404.01907)]
 
 2. Xiaomeng Hu, Pin-Yu Chen, and Tsung-Yi Ho. Radar: Robust ai-text detection via adversarial learning. Advances in Neural Information Processing Systems, 36:15077–15095, 2023. [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/30e15e5941ae0cdab7ef58cc8d59a4ca-Paper-Conference.pdf)]
 
@@ -59,30 +59,30 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 2. Hans WA Hanley and Zakir Durumeric. Machine-made media: Monitoring the mobilization of machine-generated articles on misinformation and mainstream news websites. In Proceedings of the International AAAI Conference on Web and Social Media, volume 18, pages 542–556, 2024. [[paper](https://ojs.aaai.org/index.php/ICWSM/article/view/31333/33493)]
 
-3. Amrita Bhattacharjee, Tharindu Kumarage, Raha Moraffah, and Huan Liu. Conda: Contrastive domain adaptation for ai-generated text detection. arXiv preprint arXiv:2309.03992, 2023. [[paper](https://arxiv.org/pdf/2309.03992)]
+3. Amrita Bhattacharjee, Tharindu Kumarage, Raha Moraffah, and Huan Liu. Conda: Contrastive domain adaptation for ai-generated text detection. In Proceedings of the International Joint Conference on Natural Language Processing and the Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics, pages 598610, 2023. [[paper](https://arxiv.org/pdf/2309.03992)]
 
 #### BERT-based
 1. Hao Wang, Jianwei Li, and Zhengyu Li. Ai-generated text detection and classification based on bert deep learning algorithm. arXiv preprint arXiv:2405.16422, 2024. [[paper](https://arxiv.org/pdf/2405.16422)]
 
 
 
-|       Name       | Black box | White box | Unknown |
-| :--------------: | :-------: | :-------: | :-----: |
-|       GCN   [[paper]](https://arxiv.org/pdf/2402.00263)     |     ✔️     |           |         |
-| Logits as waves [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10097942)] |           |     ✔️     |         |
-|     SeqXGPT  [[paper](https://arxiv.org/pdf/2310.08903)]    |           |     ✔️     |         |
-|       SCRN   [[paper](https://arxiv.org/pdf/2406.01179)]    |           |     ✔️     |         |
-| Proxy perplexity [[paper](https://arxiv.org/pdf/2305.15004)] |     ✔️     |           |         |
-|   Ghostbuster  [[paper](https://arxiv.org/pdf/2305.15047)]  |     ✔️     |           |         |
-|       MPU   [[paper](https://arxiv.org/pdf/2305.18149)]     |           |     ✔️     |         |
-|      RADAR    [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/30e15e5941ae0cdab7ef58cc8d59a4ca-Paper-Conference.pdf)]   |     ✔️     |           |         |
-|      conDA  [[paper](https://arxiv.org/pdf/2309.03992)]     |     ✔️     |           |         |
-|       BERT   [[paper](https://arxiv.org/pdf/2405.16422)]    |           |     ✔️     |         |
+|                                                                 Name                                                                  | Black box | White box |
+|:-------------------------------------------------------------------------------------------------------------------------------------:| :-------: | :-------: |
+|                                            GCN [[paper](https://arxiv.org/pdf/2212.10341)]                                            |     ✔️     |           |
+|                          Logits as waves [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10097942)]                           |           |     ✔️     |
+|                                          SeqXGPT [[paper](https://arxiv.org/pdf/2310.08903)]                                          |           |     ✔️     |
+|                                           SCRN [[paper](https://arxiv.org/pdf/2406.01179)]                                            |           |     ✔️     |
+|                                     Proxy perplexity [[paper](https://arxiv.org/pdf/2305.15004)]                                      |     ✔️     |           |
+|                                        Ghostbuster [[paper](https://arxiv.org/pdf/2305.15047)]                                        |     ✔️     |           |
+|                                            MPU [[paper](https://arxiv.org/pdf/2305.18149)]                                            |           |     ✔️     |
+| RADAR [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/30e15e5941ae0cdab7ef58cc8d59a4ca-Paper-Conference.pdf)] |     ✔️     |           |
+|                                           conDA [[paper](https://arxiv.org/pdf/2309.03992)]                                           |     ✔️     |           |
+|                                           BERT [[paper](https://arxiv.org/pdf/2405.16422)]                                            |           |     ✔️     |
 
 
 ## Tackling Intrinsic Attributes
-1. Nathan Benaich and Ian Hogarth. State of ai report. London, UK.[Google Scholar], 2020. [[paper]](https://www.aiunplugged.io/wp-content/uploads/2023/10/State-of-AI-Report-2023.pdf)
-2. Yuhong Mo, Hao Qin, Yushan Dong, Ziyi Zhu, and Zhenglin Li. Large language model (llm) ai text generation detection based on transformer deep learning algorithm. arXiv preprint arXiv:2405.06652, 2024. [[paper]](https://arxiv.org/pdf/2405.06652)
+1. Nathan Benaich and Ian Hogarth. State of ai report. London, UK, 2020. [[paper]](https://docs.google.com/presentation/d/1ZUimafgXCBSLsgbacd6-a-dqO7yLyzIl1ZJbiCBUUT4/edit#slide=id.g557254d430_0_0)
+2. Yuhong Mo, Hao Qin, Yushan Dong, Ziyi Zhu, and Zhenglin Li. Large language model (llm) ai text generation detection based on transformer deep learning algorithm. International Journal of Engineering and Management Research, 14(2):154–159, 2024. [[paper]](https://arxiv.org/pdf/2405.06652)
 3. Rongsheng Wang, Haoming Chen, Ruizhe Zhou, Han Ma, Yaofei Duan, Yanlan Kang, Songhua Yang, Baoyu Fan, and Tao Tan. Llm-detector: Improving ai-generated chinese text detection with open-source llm instruction tuning. arXiv preprint arXiv:2402.01158, 2024. [[paper]](https://arxiv.org/pdf/2402.01158)
 4. Farhad Pourpanah, Moloud Abdar, Yuxuan Luo, Xinlei Zhou, Ran Wang, Chee Peng Lim, Xi-Zhao Wang, and QM Jonathan Wu. A review of generalized zero-shot learning methods. IEEE transactions on pattern analysis and machine intelligence, 45(4):4051–4070, 2022. [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9832795)
 5. Wei Wang, Vincent W Zheng, Han Yu, and Chunyan Miao. A survey of zero-shot learning: Settings, methods, and applications. ACM Transactions on Intelligent Systems and Technology (TIST), 10(2):1–37, 2019. [[paper]](https://dl.acm.org/doi/pdf/10.1145/3293318?casa_token=C2rZx_nhOOwAAAAA:FgIsDW_L0FRdQhZxC59XvJfp9S4P8AXZqW00NHz7gEW8JeWj7sqnUAFTOmYvuwyx_vlnhVhe4swv)
@@ -92,11 +92,11 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 #### Logarithmic Ranking
 
-1. Jinyan Su, Terry Yue Zhuo, Di Wang, and Preslav Nakov. Detectllm: Leveraging log rank information for zero-shot detection of machinegenerated text. arXiv preprint arXiv:2306.05540, 2023. [[paper]](https://arxiv.org/pdf/2306.05540)
+1. Jinyan Su, Terry Zhuo, Di Wang, and Preslav Nakov. Detectllm: Leveraging log rank information for zero-shot detection of machine generated text. In Findings of the Association for Computational Linguistics: EMNLP, pages 12395–12412, 2023. [[paper]](https://arxiv.org/pdf/2306.05540)
 
 #### N-gram with BScore
 
-1. Xianjun Yang, Wei Cheng, Yue Wu, Linda Petzold, William Yang Wang, and Haifeng Chen. Dna-gpt: Divergent n-gram analysis for training-free detection of gpt-generated text. arXiv preprint arXiv:2305.17359, 2023. [[paper]](https://arxiv.org/pdf/2305.17359)
+1. Xianjun Yang, Wei Cheng, Yue Wu, Linda Petzold, William Yang Wang, and Haifeng Chen. Dna-gpt: Divergent n-gram analysis for training-free detection of gpt-generated text. In International Conference on Learning Representations, pages 1–26, 2024. [[paper]](https://openreview.net/pdf?id=Xlayxj2fWp)
 
 #### Internal Dimension
 1. Eduard Tulchinskii, Kristian Kuznetsov, Laida Kushnareva, Daniil Cherniavskii, Sergey Nikolenko, Evgeny Burnaev, Serguei Barannikov, and Irina Piontkovskaya. Intrinsic dimension estimation for robust detection of ai-generated texts. Advances in Neural Information Processing Systems, 36, 2024. [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/7baa48bc166aa2013d78cbdc15010530-Paper-Conference.pdf)
@@ -112,8 +112,9 @@ The classification topology of AIGTD is constructed based on addressing three ke
 #### Probability Curvature
 
 1. Niloofar Mireshghallah, Justus Mattern, Sicun Gao, Reza Shokri, and Taylor Berg-Kirkpatrick. Smaller language models are better black-box machine-generated text detectors. arXiv preprint arXiv:2305.09859, 2023. [[paper]](https://arxiv.org/pdf/2305.09859)
-2. Xianjun Yang, Wei Cheng, Yue Wu, Linda Petzold, William Yang Wang, and Haifeng Chen. Dna-gpt: Divergent n-gram analysis for training-free detection of gpt-generated text. arXiv preprint arXiv:2305.17359, 2023 [[paper]](https://arxiv.org/pdf/2305.17359)
-3. Guangsheng Bao, Yanbin Zhao, Zhiyang Teng, Linyi Yang, and Yue Zhang. Fast-detectgpt: Efficient zero-shot detection of machinegenerated text via conditional probability curvature. arXiv preprint arXiv:2310.05130, 2023. [[paper]](https://arxiv.org/pdf/2310.05130)
+2. Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D Manning, and Chelsea Finn. Detectgpt: Zero-shot machine-generated text detection using probability curvature. In International Conference on Machine Learning, pages 24950–24962. PMLR, 2023. [[paper]](https://proceedings.mlr.press/v202/mitchell23a/mitchell23a.pdf)
+3. Xianjun Yang, Wei Cheng, Yue Wu, Linda Petzold, William Yang Wang, and Haifeng Chen. Dna-gpt: Divergent n-gram analysis for training-free detection of gpt-generated text. In International Conference on Learning Representations, pages 1–26, 2024. [[paper]](https://openreview.net/pdf?id=Xlayxj2fWp)
+4. Guangsheng Bao, Yanbin Zhao, Zhiyang Teng, Linyi Yang, and Yue Zhang. Fast-detectgpt: Efficient zero-shot detection of machine generated text via conditional probability curvature. In International Conference on Learning Representations, pages 1–23, 2024. [[paper]](https://openreview.net/pdf?id=Bpcgcr8E8Z)
 
 #### Distribution Difference
 
@@ -127,25 +128,25 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 #### ChatGPT
 
-1. David M Markowitz, Jeffrey T Hancock, and Jeremy N Bailenson. Linguistic markers of inherently false ai communication and intentionally false human communication: Evidence from hotel reviews. Journal of Language and Social Psychology, 43(1):63–82, 2024. [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download)
+1. David M Markowitz, Jeffrey T Hancock, and Jeremy N Bailenson. Linguistic markers of inherently false ai communication and intentionally false human communication: Evidence from hotel reviews. Journal of Language and Social Psychology, 43(1):63–82, 2024. [[paper]](https://journals.sagepub.com/doi/full/10.1177/0261927X231200201)
 
 #### Model Mixing
 
-1. Yuhong Mo, Hao Qin, Yushan Dong, Ziyi Zhu, and Zhenglin Li. Large language model (llm) ai text generation detection based on transformer deep learning algorithm. arXiv preprint arXiv:2405.06652, 2024. [[paper]](https://arxiv.org/pdf/2405.06652)
+1. Yuhong Mo, Hao Qin, Yushan Dong, Ziyi Zhu, and Zhenglin Li. Large language model (llm) ai text generation detection based on transformer deep learning algorithm. International Journal of Engineering and Management Research, 14(2):154–159, 2024. [[paper]](https://ijemr.vandanapublications.com/index.php/ijemr/article/view/1565/1436)
 
-|      Name       | Black box | White box | Unknown |
-| :-------------: | :-------: | :-------: | :-----: |
-|       LRR   [[paper]](https://arxiv.org/pdf/2306.05540)    |           |     ✔️     |         |
-|     N-Gram  [[paper]](https://arxiv.org/pdf/2305.17359)    |     ✔️     |           |         |
-| Inter Dimension [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/7baa48bc166aa2013d78cbdc15010530-Paper-Conference.pdf) |     ✔️     |           |         |
-|    DetectGPT [[paper]](https://proceedings.mlr.press/v202/mitchell23a/mitchell23a.pdf) [[paper]](https://arxiv.org/pdf/2402.00263) |     ✔️     |           |         |
-|    OPT-125M  [[paper]](https://arxiv.org/pdf/2305.09859)   |           |           |    ✔️    |
-|   Divergence  [[paper]](https://arxiv.org/pdf/2305.17359)  |           |     ✔️     |         |
-|    Curvature  [[paper]](https://arxiv.org/pdf/2310.05130)  |     ✔️     |     ✔️     |         |
-|       MMD   [[paper]](https://arxiv.org/pdf/2402.16041)  |     ✔️     |           |         |
-|      BERT   [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10544590)    |     ✔️     |           |         |
-|     ChatGPT [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download)    |     ✔️     |           |         |
-|     Mixing  [[paper]](https://arxiv.org/pdf/2405.06652)    |           |     ✔️     |         |
+|                                                                      Name                                                                       | Black box | White box |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------:| :-------: | :-------: |
+|                                                 LRR [[paper](https://arxiv.org/pdf/2306.05540)]                                                 |           |     ✔️     |
+|                                               N-Gram [[paper](https://openreview.net/pdf?id=Xlayxj2fWp)]                                                |     ✔️     |           |
+| Inter Dimension [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/7baa48bc166aa2013d78cbdc15010530-Paper-Conference.pdf)] |     ✔️     |           |         |
+|              DetectGPT [[paper](https://proceedings.mlr.press/v202/mitchell23a/mitchell23a.pdf)] [[paper](https://arxiv.org/pdf/2402.00263)]               |     ✔️     |           |
+|                                              OPT-125M [[paper](https://arxiv.org/pdf/2305.09859)]                                               |     ✔️     |           |
+|                                             Divergence [[paper](https://openreview.net/pdf?id=Xlayxj2fWp)]                                              |           |     ✔️     |
+|                                              Curvature [[paper](https://openreview.net/pdf?id=Bpcgcr8E8Z)]                                              |     ✔️     |     ✔️     |
+|                                                 MMD [[paper](https://arxiv.org/pdf/2402.16041)]                                                 |     ✔️     |           |
+|                                     BERT [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10544590)]                                      |     ✔️     |           |
+|                                ChatGPT [[paper](https://journals.sagepub.com/doi/pdf/10.1177/0261927X231200201)]                                |     ✔️     |           |
+|                                               Mixing [[paper](https://ijemr.vandanapublications.com/index.php/ijemr/article/view/1565/1436)]                                                |           |     ✔️     |
 
 
 
@@ -165,12 +166,12 @@ The classification topology of AIGTD is constructed based on addressing three ke
 #### Logits Deviation
 1. John Kirchenbauer, Jonas Geiping, Yuxin Wen, Jonathan Katz, Ian Miers, and Tom Goldstein. A watermark for large language models. In International Conference on Machine Learning, pages 17061–17084. PMLR, 2023. [[paper](https://proceedings.mlr.press/v202/kirchenbauer23a/kirchenbauer23a.pdf)]
 
-2. Xuandong Zhao, Prabhanjan Ananth, Lei Li, and Yu-Xiang Wang. Provable robust watermarking for ai-generated text. arXiv preprint arXiv:2306.17439, 2023. [[paper](https://arxiv.org/pdf/2306.17439)]
+2. Xuandong Zhao, Prabhanjan Vijendra Ananth, Lei Li, and Yu-Xiang Wang. Provable robust watermarking for ai-generated text. In International Conference on Learning Representations, pages 1–35, 2024. [[paper](https://openreview.net/pdf?id=SsmT8aO45L)]
 
 #### Hash-based
 1. Abe Bohan Hou, Jingyu Zhang, Tianxing He, Yichen Wang, YungSung Chuang, Hongwei Wang, Lingfeng Shen, Benjamin Van Durme, Daniel Khashabi, and Yulia Tsvetkov. Semstamp: A semantic watermark with paraphrastic robustness for text generation. arXiv preprint arXiv:2310.03991, 2023. [[paper](https://arxiv.org/pdf/2310.03991)]
 
-2. Yihan Wu, Zhengmian Hu, Hongyang Zhang, and Heng Huang. Dipmark: A stealthy, efficient and resilient watermark for large language models. arXiv preprint arXiv:2310.07710, 2023. [[paper](https://arxiv.org/pdf/2310.07710)]
+2. Yihan Wu, Zhengmian Hu, Hongyang Zhang, and Heng Huang. Dipmark: A stealthy, efficient and resilient watermark for large language models. In International Conference on Learning Representations, pages 1–27, 2024. [[paper](https://openreview.net/pdf?id=FhZi7r4nzA)]
 
 3. Abe Bohan Hou, Jingyu Zhang, Yichen Wang, Daniel Khashabi, and Tianxing He. k-semstamp: A clustering-based semantic watermark for detection of machine-generated text. arXiv preprint arXiv:2402.11399, 2024. [[paper](https://arxiv.org/pdf/2402.11399)]
 
@@ -183,14 +184,14 @@ The classification topology of AIGTD is constructed based on addressing three ke
 #### Message Encoding
 1. Han Fang, Zhaoyang Jia, Hang Zhou, Zehua Ma, and Weiming Zhang. Encoded feature enhancement in watermarking network for distortion in real scenes. IEEE Transactions on Multimedia, 2022. [[paper](http://staff.ustc.edu.cn/~zhangwm/Paper/2022_19.pdf)]
 
-2. Ruisi Zhang, Shehzeen Samarah Hussain, Paarth Neekhara, and Farinaz Koushanfar. Remark-llm: A robust and efficient watermarking framework for generative large language models. arXiv preprint arXiv:2310.12362, 2023. [[paper](https://arxiv.org/pdf/2310.12362)]
+2. Ruisi Zhang, Shehzeen Samarah Hussain, Paarth Neekhara, and Farinaz Koushanfar. Remark-llm: A robust and efficient watermarking framework for generative large language models. In USENIX Security Symposium, 2024. [[paper](https://arxiv.org/pdf/2310.12362)]
 
 ### Information Capacity
 
 #### Multi-bit
 1. KiYoon Yoo, Wonhyuk Ahn, Jiho Jang, and Nojun Kwak. Robust multi-bit natural language watermarking through invariant features. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 2092–2115, 2023. [[paper](https://arxiv.org/pdf/2305.01904)]
 
-2. Pierre Fernandez, Antoine Chaffin, Karim Tit, Vivien Chappelier, and Teddy Furon. Three bricks to consolidate watermarks for large language models. In 2023 IEEE International Workshop on Information Forensics and Security (WIFS), pages 1–6. IEEE, 2023. [[paper](https://arxiv.org/pdf/2308.00113)]
+2. Pierre Fernandez, Antoine Chaffin, Karim Tit, Vivien Chappelier, and Teddy Furon. Three bricks to consolidate watermarks for large language models. In 2023 IEEE International Workshop on Information Forensics and Security (WIFS), pages 1–6. IEEE, 2023. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10374576)]
 
 3. Massieh Kordi Boroujeny, Ya Jiang, Kai Zeng, and Brian Mark. Multi-bit distortion-free watermarking for large language models. arXiv preprint arXiv:2402.16578, 2024. [[paper](https://arxiv.org/pdf/2402.16578)]
 
@@ -199,16 +200,16 @@ The classification topology of AIGTD is constructed based on addressing three ke
 |   Datasets   |  Size   |               Data Description               |
 | :----------: | :-----: | :------------------------------------------: |
 | TuringBench [[paper](https://arxiv.org/pdf/2310.08903)] [[paper](https://arxiv.org/pdf/2405.16422)] [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9832795) |   200   |                News articles                 |
-|     HC3 [[paper]](https://arxiv.org/pdf/2402.16041)     | 37,175  |   Reddit, Wikipedia, medicine and finance    |
+|     HC3 [[paper]](https://arxiv.org/pdf/2402.16041)     | 44,425  |   Reddit, Wikipedia, medicine and finance    |
 |    CHEAT  [[paper](https://arxiv.org/pdf/2303.16779)] | 35,304  |              Academic abstracts              |
 | Ghostbuster [[paper](https://arxiv.org/pdf/2305.15047)] | 12,685  |  Student essays, creative fiction, and news  |
 | GPT-Sentinel [[paper](https://arxiv.org/pdf/2310.08903)] | 29,395  |                 OpenWebText                  |
-|      M4      | 122,481 |                Multi-domains                 |
-|   MGTBench [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download) [[github](https://github.com/xinleihe/MGTBench)] |  2,817  |         Question-answering datasets          |
-|   HC3 Plus [[paper](https://arxiv.org/pdf/2305.18149)] | 214,498 | Summarization, translation, and paraphrasing |
-|  MULTITuDE   | 74,081  |                 MassiveSumm                  |
-|      \-   [[paper](https://arxiv.org/pdf/2405.16422)] [[paper]](https://arxiv.org/pdf/2405.06652) |  1,378  |        Public dataset, unknown source        |
-|      \-   [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download)   |   \-    |       Self-built hotel review dataset        |
+|      M4 [[paper](https://arxiv.org/pdf/2402.11175)]     | 122,481 |                Multi-domains                 |
+|   MGTBench [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download)  |  2,817  |         Question-answering datasets          |
+|   HC3 Plus [[paper](https://openreview.net/pdf?id=5Lp6qU9hzV)] | 214,498 | Summarization, translation, and paraphrasing |
+|  MULTITuDE [[paper](https://arxiv.org/pdf/2402.11175)]  | 74,081  |                 MassiveSumm                  |
+|      GTD   [[paper](https://arxiv.org/pdf/2405.16422)] [[paper]](https://arxiv.org/pdf/2405.06652) |  1,378  |        Public dataset, unknown source        |
+|      Reviews24*   [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download)   |   \-    |       Self-built hotel review dataset        |
 |   OpenGen  [[paper](https://arxiv.org/pdf/2401.16820)]  |  3,000  | 3,000 randomly selected two-sentence blocks  |
 |    Alpaca  [[paper](https://arxiv.org/pdf/2306.17439)]  |   \-    |    Used for question and answer task test    |
 |      C4    [[paper](https://www.jmlr.org/papers/v21/20-074.html)] [[paper](https://arxiv.org/pdf/2402.11399)] [[paper](https://arxiv.org/pdf/2306.17439)]  |   \-    |  Colossal Clean Crawled Corpus:  Used for open text generation tasks      |
