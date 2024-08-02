@@ -68,16 +68,16 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 |       Name       | Black box | White box | Unknown |
 | :--------------: | :-------: | :-------: | :-----: |
-|       GCN        |     ✔️     |           |         |
-| Logits as waves  |           |     ✔️     |         |
-|     SeqXGPT      |           |     ✔️     |         |
-|       SCRN       |           |     ✔️     |         |
-| Proxy perplexity |     ✔️     |           |         |
-|   Ghostbuster    |     ✔️     |           |         |
-|       MPU        |           |     ✔️     |         |
-|      RADAR       |     ✔️     |           |         |
-|      conDA       |     ✔️     |           |         |
-|       BERT       |           |     ✔️     |         |
+|       GCN   [[paper]](https://arxiv.org/pdf/2402.00263)     |     ✔️     |           |         |
+| Logits as waves [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10097942)] |           |     ✔️     |         |
+|     SeqXGPT  [[paper](https://arxiv.org/pdf/2310.08903)]    |           |     ✔️     |         |
+|       SCRN   [[paper](https://arxiv.org/pdf/2406.01179)]    |           |     ✔️     |         |
+| Proxy perplexity [[paper](https://arxiv.org/pdf/2305.15004)] |     ✔️     |           |         |
+|   Ghostbuster  [[paper](https://arxiv.org/pdf/2305.15047)]  |     ✔️     |           |         |
+|       MPU   [[paper](https://arxiv.org/pdf/2305.18149)]     |           |     ✔️     |         |
+|      RADAR    [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/30e15e5941ae0cdab7ef58cc8d59a4ca-Paper-Conference.pdf)]   |     ✔️     |           |         |
+|      conDA  [[paper](https://arxiv.org/pdf/2309.03992)]     |     ✔️     |           |         |
+|       BERT   [[paper](https://arxiv.org/pdf/2405.16422)]    |           |     ✔️     |         |
 
 
 ## Tackling Intrinsic Attributes
@@ -135,17 +135,17 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 |      Name       | Black box | White box | Unknown |
 | :-------------: | :-------: | :-------: | :-----: |
-|       LRR       |           |     ✔️     |         |
-|     N-Gram      |     ✔️     |           |         |
-| Inter Dimension |     ✔️     |           |         |
-|    DetectGPT    |     ✔️     |           |         |
-|    OPT-125M     |           |           |    ✔️    |
-|   Divergence    |           |     ✔️     |         |
-|    Curvature    |     ✔️     |     ✔️     |         |
-|       MMD       |     ✔️     |           |         |
-|      BERT       |     ✔️     |           |         |
-|     ChatGPT     |     ✔️     |           |         |
-|     Mixing      |           |     ✔️     |         |
+|       LRR   [[paper]](https://arxiv.org/pdf/2306.05540)    |           |     ✔️     |         |
+|     N-Gram  [[paper]](https://arxiv.org/pdf/2305.17359)    |     ✔️     |           |         |
+| Inter Dimension [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/7baa48bc166aa2013d78cbdc15010530-Paper-Conference.pdf) |     ✔️     |           |         |
+|    DetectGPT [[paper]](https://proceedings.mlr.press/v202/mitchell23a/mitchell23a.pdf) [[paper]](https://arxiv.org/pdf/2402.00263) |     ✔️     |           |         |
+|    OPT-125M  [[paper]](https://arxiv.org/pdf/2305.09859)   |           |           |    ✔️    |
+|   Divergence  [[paper]](https://arxiv.org/pdf/2305.17359)  |           |     ✔️     |         |
+|    Curvature  [[paper]](https://arxiv.org/pdf/2310.05130)  |     ✔️     |     ✔️     |         |
+|       MMD   [[paper]](https://arxiv.org/pdf/2402.16041)  |     ✔️     |           |         |
+|      BERT   [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10544590)    |     ✔️     |           |         |
+|     ChatGPT [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download)    |     ✔️     |           |         |
+|     Mixing  [[paper]](https://arxiv.org/pdf/2405.06652)    |           |     ✔️     |         |
 
 
 
@@ -212,9 +212,25 @@ The classification topology of AIGTD is constructed based on addressing three ke
 |   OpenGen  [[paper](https://arxiv.org/pdf/2401.16820)]  |  3,000  | 3,000 randomly selected two-sentence blocks  |
 |   C4 News   [[paper](https://arxiv.org/pdf/2401.16820)] |   \-    |                15GB news data                |
 |    Alpaca  [[paper](https://arxiv.org/pdf/2306.17439)]  |   \-    |    Used for question and answer task test    |
-|      C4    [[paper](https://arxiv.org/pdf/2402.11399)] [[paper](https://arxiv.org/pdf/2306.17439)]  |   \-    |     Used for open text generation tasks      |
+|      C4    [[paper](https://arxiv.org/pdf/2402.11399)] [[paper](https://arxiv.org/pdf/2306.17439)]  |   \-    |  Colossal Clean Crawled Corpus:  Used for open text generation tasks      |
 |    Grover  [[paper]](https://arxiv.org/pdf/2402.00263)  |   \-    |     News generator based on Transformer      |
 |     XSum   [[paper]](https://arxiv.org/pdf/2402.16041)  |   \-    |                News articles                 |
+|     WikiText    [[paper]](https://arxiv.org/html/2402.17938v1) |   \-    |  Wiki text for language model training and evaluation |
+|     Grover  [[paper]](https://arxiv.org/pdf/2402.00263)  |   \-    |    News generator Grover-Mega (1.5B) generated            |
+|     LWD  [[paper]](https://arxiv.org/pdf/2401.06712)  |   \-    |  Text generated using Llama-2, GPT-4, and ChatGPT    |
+|     AAC  [[paper]](https://arxiv.org/pdf/2401.06712)  |   \-    |  Documents generated by GPT-2 and OPT models were used    |
+|   \-   [[paper]](https://link.springer.com/article/10.1007/s10805-023-09492-6) |   \-    |  Submissions from 963 real students: essays, reports and case studies   |
+|   DAIGT [[paper]](https://arxiv.org/pdf/2403.13335) |   30,720   |   Contains manually generated text and LLM-generated text, distributed in a 2:1 ratio     |
+|   Deepfake  [[paper]](https://arxiv.org/pdf/2403.13335)  |   \-    |  Contains texts from different fields, including public statements, news articles, and scientific texts, which are generated by a variety of LLMS  |
+|   BookSum  [[paper]](https://arxiv.org/pdf/2402.11399)  |   \-    |  Designed for long form narrative generalization  |
+|   Creative Writing [[paper]](https://arxiv.org/pdf/2401.12970)|   \-    |  Creative writing based on community tips  |
+|   Student Essay [[paper]](https://arxiv.org/pdf/2401.12970)|   \-    |  Based on the British Academic Written English corpus  |
+|   Code  [[paper]](https://arxiv.org/pdf/2401.12970)|   \-    |  Detecting whether Python code is written by GPT, using the HumanEval dataset  [[paper]](https://arxiv.org/pdf/2107.03374) |
+|   Yelp Review  [[paper]](https://arxiv.org/pdf/2401.12970)  |   \-    |  Raw Yelp reviews are used and a clean AI-generated review is generated via GPT-3.5-turbo |
+|   ArXiv Paper [[paper]](https://arxiv.org/pdf/2401.12970)|   \-    |  Contains 350 abstracts of ICLR papers from 2015 to 2021  |
+
+
+
 
 ## Citation
 If you find this project useful in your research or work, please consider citing it:
