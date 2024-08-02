@@ -201,7 +201,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 | TuringBench [[paper](https://arxiv.org/pdf/2310.08903)] [[paper](https://arxiv.org/pdf/2405.16422)] [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9832795) |   200   |                News articles                 |
 |     HC3 [[paper]](https://arxiv.org/pdf/2402.16041)     | 44,425  |   Reddit, Wikipedia, medicine and finance    |
 |    CHEAT  [[paper](https://arxiv.org/pdf/2303.16779)] | 35,304  |              Academic abstracts              |
-<!--| Ghostbuster [[paper](https://arxiv.org/pdf/2305.15047)] | 12,685  |  Student essays, creative fiction, and news  |-->
+| Ghostbuster [[paper](https://arxiv.org/pdf/2305.15047)] | 12,685  |  Student essays, creative fiction, and news  |
 | GPT-Sentinel [[paper](https://arxiv.org/pdf/2310.08903)] | 29,395  |                 OpenWebText                  |
 |      M4      | 122,481 |                Multi-domains                 |
 |   MGTBench [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download)  |  2,817  |         Question-answering datasets          |
