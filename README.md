@@ -204,7 +204,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 | Ghostbuster [[paper](https://arxiv.org/pdf/2305.15047)] | 12,685  |  Student essays, creative fiction, and news  |
 | GPT-Sentinel [[paper](https://arxiv.org/pdf/2310.08903)] | 29,395  |                 OpenWebText                  |
 |      M4      | 122,481 |                Multi-domains                 |
-|   MGTBench [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download)  |  2,817  |         Question-answering datasets          |
+|   MGTBench [[paper]](https://osf.io/preprints/psyarxiv/mnyz8/download) [[github](https://github.com/xinleihe/MGTBench)] |  2,817  |         Question-answering datasets          |
 |   HC3 Plus [[paper](https://arxiv.org/pdf/2305.18149)] | 214,498 | Summarization, translation, and paraphrasing |
 |  MULTITuDE   | 74,081  |                 MassiveSumm                  |
 |      \-   [[paper](https://arxiv.org/pdf/2405.16422)] [[paper]](https://arxiv.org/pdf/2405.06652) |  1,378  |        Public dataset, unknown source        |
