@@ -22,7 +22,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 2. Abhinav Shrivastava, Abhinav Gupta, and Ross Girshick. Training region-based object detectors with online hard example mining. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 761–769, 2016. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7780458)]
 
-3. Beliz Gunel, Jingfei Du, Alexis Conneau, and Veselin Stoyanov. Supervised contrastive learning for pre-trained language model finetuning. In International Conference on Learning Representations, pages 1–15, 2021. [[paper](https://openreview.net/pdf?id=cu7IUiOhujH)]
+3. Beliz Gunel, Jingfei Du, Alexis Conneau, and Veselin Stoyanov. Supervised contrastive learning for pre-trained language model finetuning. In Proceedings of the International Conference on Learning Representations, pages 1–15, 2021. [[paper](https://openreview.net/pdf?id=cu7IUiOhujH)]
 
 ### Feature Analysis
 
@@ -30,7 +30,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 1. Xiaoming Liu, Zhaohan Zhang, Yichen Wang, Hang Pu, Yu Lan, and Chao Shen. Coco: Coherence-enhanced machine-generated text detection under data limitation with contrastive learning. arXiv preprint arXiv:2212.10341, 2022. [[paper](https://arxiv.org/pdf/2212.10341)]
 
 #### Partial Access
-1. Yi Xu, Jie Hu, Zhiqiao Gao, and Jinpeng Chen. Ucl-ast: Active self-training with uncertainty-aware clouded logits for few-shot text classification. In 2022 IEEE 34th International Conference on Tools with Artificial Intelligence (ICTAI), pages 1390–1395. IEEE, 2022. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10097942)]
+1. Yi Xu, Jie Hu, Zhiqiao Gao, and Jinpeng Chen. Ucl-ast: Active self-training with uncertainty-aware clouded logits for few-shot text classification. In Proceedings of the 2022 IEEE 34th International Conference on Tools with Artificial Intelligence (ICTAI), pages 1390–1395. IEEE, 2022. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10097942)]
 
 2. Pengyu Wang, Linyang Li, Ke Ren, Botian Jiang, Dong Zhang, and Xipeng Qiu. Seqxgpt: Sentence-level ai-generated text detection. In Proceedings of the Conference on Empirical Methods in Natural Language Processing, pages 1144–1156, 2023. [[paper](https://arxiv.org/pdf/2310.08903)]
 
@@ -46,13 +46,13 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 ### Deep Learning
 
-#### Positiva Unlabeled
-1. Yuchuan Tian, Hanting Chen, Xutao Wang, Zheyuan Bai, Qinghua Zhang, Ruifeng Li, Chao Xu, and Yunhe Wang. Multiscale positive unlabeled detection of ai-generated texts. In International Conference on Learning Representations, 2024. [[paper](https://openreview.net/pdf?id=5Lp6qU9hzV)]
+#### Positive Unlabeled
+1. Yuchuan Tian, Hanting Chen, Xutao Wang, Zheyuan Bai, Qinghua Zhang, Ruifeng Li, Chao Xu, and Yunhe Wang. Multiscale positive unlabeled detection of ai-generated texts. In Proceedings of the International Conference on Learning Representations, 2024. [[paper](https://openreview.net/pdf?id=5Lp6qU9hzV)]
 
 #### Adversarial Training
 1. Ying Zhou, Ben He, and Le Sun. Humanizing machine-generated content: Evading ai-text detection through adversarial attack. In Proceedings of the Joint International Conference on Computational Linguistics, Language Resources and Evaluation, pages 8427–8437, 2024. [[paper](https://arxiv.org/pdf/2404.01907)]
 
-2. Xiaomeng Hu, Pin-Yu Chen, and Tsung-Yi Ho. Radar: Robust ai-text detection via adversarial learning. Advances in Neural Information Processing Systems, 36:15077–15095, 2023. [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/30e15e5941ae0cdab7ef58cc8d59a4ca-Paper-Conference.pdf)]
+2. Xiaomeng Hu, Pin-Yu Chen, and Tsung-Yi Ho. Radar: Robust ai-text detection via adversarial learning. In Proceedings of the Advances in Neural Information Processing Systems, 36:15077–15095, 2023. [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/30e15e5941ae0cdab7ef58cc8d59a4ca-Paper-Conference.pdf)]
 
 #### Transfer Training
 1. Eric Chu, Jacob Andreas, Stephen Ansolabehere, and Deb Roy. Language models trained on media diets can predict public opinion. arXiv preprint arXiv:2303.16779, 2023. [[paper](https://arxiv.org/pdf/2303.16779)]
@@ -96,25 +96,25 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 #### N-gram with BScore
 
-1. Xianjun Yang, Wei Cheng, Yue Wu, Linda Petzold, William Yang Wang, and Haifeng Chen. Dna-gpt: Divergent n-gram analysis for training-free detection of gpt-generated text. In International Conference on Learning Representations, pages 1–26, 2024. [[paper]](https://openreview.net/pdf?id=Xlayxj2fWp)
+1. Xianjun Yang, Wei Cheng, Yue Wu, Linda Petzold, William Yang Wang, and Haifeng Chen. Dna-gpt: Divergent n-gram analysis for training-free detection of gpt-generated text. In Proceedings of the International Conference on Learning Representations, pages 1–26, 2024. [[paper]](https://openreview.net/pdf?id=Xlayxj2fWp)
 
 #### Internal Dimension
-1. Eduard Tulchinskii, Kristian Kuznetsov, Laida Kushnareva, Daniil Cherniavskii, Sergey Nikolenko, Evgeny Burnaev, Serguei Barannikov, and Irina Piontkovskaya. Intrinsic dimension estimation for robust detection of ai-generated texts. Advances in Neural Information Processing Systems, 36, 2024. [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/7baa48bc166aa2013d78cbdc15010530-Paper-Conference.pdf)
+1. Eduard Tulchinskii, Kristian Kuznetsov, Laida Kushnareva, Daniil Cherniavskii, Sergey Nikolenko, Evgeny Burnaev, Serguei Barannikov, and Irina Piontkovskaya. Intrinsic dimension estimation for robust detection of ai-generated texts. In Proceedings of the Advances in Neural Information Processing Systems, 36, 2024. [[paper]](https://proceedings.neurips.cc/paper_files/paper/2023/file/7baa48bc166aa2013d78cbdc15010530-Paper-Conference.pdf)
 
 ### Probability-based
 
 #### Conditional Probability
 
-1. Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D Manning, and Chelsea Finn. Detectgpt: Zero-shot machine-generated text detection using probability curvature. In International Conference on Machine Learning, pages 24950–24962. PMLR, 2023. [[paper]](https://proceedings.mlr.press/v202/mitchell23a/mitchell23a.pdf)
+1. Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D Manning, and Chelsea Finn. Detectgpt: Zero-shot machine-generated text detection using probability curvature. In Proceedings of the International Conference on Machine Learning, pages 24950–24962. PMLR, 2023. [[paper]](https://proceedings.mlr.press/v202/mitchell23a/mitchell23a.pdf)
 2. Shengchao Liu, Xiaoming Liu, Yichen Wang, Zehua Cheng, Chengzhengxu Li, Zhaohan Zhang, Yu Lan, and Chao Shen. Does∖textsc {DetectGPT} fully utilize perturbation? selective perturbation on model-based contrastive learning detector would be better. arXiv preprint arXiv:2402.00263, 2024. [[paper]](https://arxiv.org/pdf/2402.00263)
 
 
 #### Probability Curvature
 
 1. Niloofar Mireshghallah, Justus Mattern, Sicun Gao, Reza Shokri, and Taylor Berg-Kirkpatrick. Smaller language models are better black-box machine-generated text detectors. arXiv preprint arXiv:2305.09859, 2023. [[paper]](https://arxiv.org/pdf/2305.09859)
-2. Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D Manning, and Chelsea Finn. Detectgpt: Zero-shot machine-generated text detection using probability curvature. In International Conference on Machine Learning, pages 24950–24962. PMLR, 2023. [[paper]](https://proceedings.mlr.press/v202/mitchell23a/mitchell23a.pdf)
-3. Xianjun Yang, Wei Cheng, Yue Wu, Linda Petzold, William Yang Wang, and Haifeng Chen. Dna-gpt: Divergent n-gram analysis for training-free detection of gpt-generated text. In International Conference on Learning Representations, pages 1–26, 2024. [[paper]](https://openreview.net/pdf?id=Xlayxj2fWp)
-4. Guangsheng Bao, Yanbin Zhao, Zhiyang Teng, Linyi Yang, and Yue Zhang. Fast-detectgpt: Efficient zero-shot detection of machine generated text via conditional probability curvature. In International Conference on Learning Representations, pages 1–23, 2024. [[paper]](https://openreview.net/pdf?id=Bpcgcr8E8Z)
+2. Eric Mitchell, Yoonho Lee, Alexander Khazatsky, Christopher D Manning, and Chelsea Finn. Detectgpt: Zero-shot machine-generated text detection using probability curvature. In Proceedings of the International Conference on Machine Learning, pages 24950–24962. PMLR, 2023. [[paper]](https://proceedings.mlr.press/v202/mitchell23a/mitchell23a.pdf)
+3. Xianjun Yang, Wei Cheng, Yue Wu, Linda Petzold, William Yang Wang, and Haifeng Chen. Dna-gpt: Divergent n-gram analysis for training-free detection of gpt-generated text. In Proceedings of the International Conference on Learning Representations, pages 1–26, 2024. [[paper]](https://openreview.net/pdf?id=Xlayxj2fWp)
+4. Guangsheng Bao, Yanbin Zhao, Zhiyang Teng, Linyi Yang, and Yue Zhang. Fast-detectgpt: Efficient zero-shot detection of machine generated text via conditional probability curvature. In Proceedings of the International Conference on Learning Representations, pages 1–23, 2024. [[paper]](https://openreview.net/pdf?id=Bpcgcr8E8Z)
 
 #### Distribution Difference
 
@@ -124,7 +124,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 #### BERT
 
-1. Utsho Chakraborty, Jaydeep Gheewala, Sheshang Degadwala, Dhairya Vyas, and Mukesh Soni. Safeguarding authenticity in text with bert-powered detection of ai-generated content. In 2024 International Conference on Inventive Computation Technologies (ICICT), pages 34–37. IEEE, 2024 [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10544590)
+1. Utsho Chakraborty, Jaydeep Gheewala, Sheshang Degadwala, Dhairya Vyas, and Mukesh Soni. Safeguarding authenticity in text with bert-powered detection of ai-generated content. In Proceedings of the 2024 International Conference on Inventive Computation Technologies (ICICT), pages 34–37. IEEE, 2024 [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10544590)
 
 #### ChatGPT
 
@@ -164,27 +164,27 @@ The classification topology of AIGTD is constructed based on addressing three ke
 ### Training-free
 
 #### Logits Deviation
-1. John Kirchenbauer, Jonas Geiping, Yuxin Wen, Jonathan Katz, Ian Miers, and Tom Goldstein. A watermark for large language models. In International Conference on Machine Learning, pages 17061–17084. PMLR, 2023. [[paper](https://proceedings.mlr.press/v202/kirchenbauer23a/kirchenbauer23a.pdf)]
+1. John Kirchenbauer, Jonas Geiping, Yuxin Wen, Jonathan Katz, Ian Miers, and Tom Goldstein. A watermark for large language models. In Proceedings of the International Conference on Machine Learning, pages 17061–17084. PMLR, 2023. [[paper](https://proceedings.mlr.press/v202/kirchenbauer23a/kirchenbauer23a.pdf)]
 
-2. Xuandong Zhao, Prabhanjan Vijendra Ananth, Lei Li, and Yu-Xiang Wang. Provable robust watermarking for ai-generated text. In International Conference on Learning Representations, pages 1–35, 2024. [[paper](https://openreview.net/pdf?id=SsmT8aO45L)]
+2. Xuandong Zhao, Prabhanjan Vijendra Ananth, Lei Li, and Yu-Xiang Wang. Provable robust watermarking for ai-generated text. In Proceedings of the International Conference on Learning Representations, pages 1–35, 2024. [[paper](https://openreview.net/pdf?id=SsmT8aO45L)]
 
 #### Hash-based
 1. Abe Bohan Hou, Jingyu Zhang, Tianxing He, Yichen Wang, YungSung Chuang, Hongwei Wang, Lingfeng Shen, Benjamin Van Durme, Daniel Khashabi, and Yulia Tsvetkov. Semstamp: A semantic watermark with paraphrastic robustness for text generation. arXiv preprint arXiv:2310.03991, 2023. [[paper](https://arxiv.org/pdf/2310.03991)]
 
-2. Yihan Wu, Zhengmian Hu, Hongyang Zhang, and Heng Huang. Dipmark: A stealthy, efficient and resilient watermark for large language models. In International Conference on Learning Representations, pages 1–27, 2024. [[paper](https://openreview.net/pdf?id=FhZi7r4nzA)]
+2. Yihan Wu, Zhengmian Hu, Hongyang Zhang, and Heng Huang. Dipmark: A stealthy, efficient and resilient watermark for large language models. In Proceedings of the International Conference on Learning Representations, pages 1–27, 2024. [[paper](https://openreview.net/pdf?id=FhZi7r4nzA)]
 
 3. Abe Bohan Hou, Jingyu Zhang, Yichen Wang, Daniel Khashabi, and Tianxing He. k-semstamp: A clustering-based semantic watermark for detection of machine-generated text. arXiv preprint arXiv:2402.11399, 2024. [[paper](https://arxiv.org/pdf/2402.11399)]
 
 #### Message Decoding
 1. Xuandong Zhao, Lei Li, and Yu-Xiang Wang. Permute-and-flip: An optimally robust and watermarkable decoder for llms. arXiv preprint arXiv:2402.05864, 2024. [[paper](https://arxiv.org/pdf/2402.05864)]
 
-2. Scott Aaronson, Jiahui Liu, Qipeng Liu, Mark Zhandry, and Ruizhe Zhang. New approaches for quantum copy-protection. In Advances in Cryptology–CRYPTO 2021: 41st Annual International Cryptology Conference, CRYPTO 2021, Virtual Event, August 16–20, 2021, Proceedings, Part I 41, pages 526–555. Springer, 2021. [[paper](https://arxiv.org/pdf/2004.09674)]
+2. Scott Aaronson, Jiahui Liu, Qipeng Liu, Mark Zhandry, and Ruizhe Zhang. New approaches for quantum copy-protection. In Proceedings of the Advances in Cryptology–CRYPTO 2021: 41st Annual International Cryptology Conference, CRYPTO 2021, Virtual Event, August 16–20, 2021, Proceedings, Part I 41, pages 526–555. Springer, 2021. [[paper](https://arxiv.org/pdf/2004.09674)]
 
 ###  Training-based
 #### Message Encoding
 1. Han Fang, Zhaoyang Jia, Hang Zhou, Zehua Ma, and Weiming Zhang. Encoded feature enhancement in watermarking network for distortion in real scenes. IEEE Transactions on Multimedia, 2022. [[paper](http://staff.ustc.edu.cn/~zhangwm/Paper/2022_19.pdf)]
 
-2. Ruisi Zhang, Shehzeen Samarah Hussain, Paarth Neekhara, and Farinaz Koushanfar. Remark-llm: A robust and efficient watermarking framework for generative large language models. In USENIX Security Symposium, 2024. [[paper](https://arxiv.org/pdf/2310.12362)]
+2. Ruisi Zhang, Shehzeen Samarah Hussain, Paarth Neekhara, and Farinaz Koushanfar. Remark-llm: A robust and efficient watermarking framework for generative large language models. In  Proceedings of the USENIX Security Symposium, 2024. [[paper](https://arxiv.org/pdf/2310.12362)]
 
 ### Information Capacity
 
