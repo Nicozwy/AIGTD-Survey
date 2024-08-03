@@ -77,7 +77,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 |                                            MPU [[paper](https://arxiv.org/pdf/2305.18149)]                                            |           |     ✔️     |
 | RADAR [[paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/30e15e5941ae0cdab7ef58cc8d59a4ca-Paper-Conference.pdf)] |     ✔️     |           |
 |                                           conDA [[paper](https://arxiv.org/pdf/2309.03992)]                                           |     ✔️     |           |
-|                                           BERT [[paper](https://arxiv.org/pdf/2405.16422)]                                            |           |     ✔️     |
+|                                           BERT-based [[paper](https://ijemr.vandanapublications.com/index.php/ijemr/article/view/1565/1436)]                                            |           |     ✔️     |
 
 
 ## Tackling Intrinsic Attributes
@@ -144,7 +144,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 |                                             Divergence [[paper](https://openreview.net/pdf?id=Xlayxj2fWp)]                                              |           |     ✔️     |
 |                                              Curvature [[paper](https://openreview.net/pdf?id=Bpcgcr8E8Z)]                                              |     ✔️     |     ✔️     |
 |                                                 MMD [[paper](https://arxiv.org/pdf/2402.16041)]                                                 |     ✔️     |           |
-|                                     BERT [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10544590)]                                      |     ✔️     |           |
+|                                     BERT-powered [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10544590)]                                      |     ✔️     |           |
 |                                ChatGPT [[paper](https://journals.sagepub.com/doi/pdf/10.1177/0261927X231200201)]                                |     ✔️     |           |
 |                                               Mixing [[paper](https://ijemr.vandanapublications.com/index.php/ijemr/article/view/1565/1436)]                                                |           |     ✔️     |
 
@@ -241,7 +241,7 @@ If you find this project useful in your research or work, please consider citing
 ```
 @article{yang2024survey,
   title={The Imitation Game Revisited: A Comprehensive Survey on Recent Advances in AI-Generated Text Detection},
-  author={Zhiwei Yang, Zhengjie Feng, Ruichi Nie, Hongrui Chen, Hanghan Zheng, and Huiru Lin},
+  author={Zhiwei Yang, Zhengjie Feng, Ruichi Nie, Hongrui Chen, Hanghan Zheng, Huiru Lin and Rongxin Huo},
   year={2024}
 }
 ```
