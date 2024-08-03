@@ -122,7 +122,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 ### Epidemic Model
 
-#### BERT
+#### BERT-powered
 
 1. Utsho Chakraborty, Jaydeep Gheewala, Sheshang Degadwala, Dhairya Vyas, and Mukesh Soni. Safeguarding authenticity in text with bert-powered detection of ai-generated content. In Proceedings of the 2024 International Conference on Inventive Computation Technologies (ICICT), pages 34–37. IEEE, 2024 [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10544590)
 
