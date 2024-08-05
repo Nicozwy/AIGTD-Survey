@@ -203,10 +203,10 @@ The classification topology of AIGTD is constructed based on addressing three ke
 |     HC3 [[paper]](https://arxiv.org/pdf/2301.07597)     | 37,175  |   Reddit, Wikipedia, medicine and finance    |
 |    CHEAT  [[paper](https://arxiv.org/pdf/2304.12008)] | 35,304  |              Academic abstracts              |
 | GPT-Sentinel [[paper](https://arxiv.org/pdf/2305.07969)] | 29,395  |                 OpenWebText                  |
-|   MGTBench [[paper]](https://arxiv.org/pdf/2303.14822)  |  2,817  |         Containing three enhanced datasets, i.e., Essay, WP, and Reuters          |
+|   MGTBench [[paper]](https://arxiv.org/pdf/2303.14822)  |  3000  |         Containing three enhanced datasets, i.e., Essay, WP, and Reuters          |
 |   HC3 Plus [[paper](https://arxiv.org/pdf/2309.02731)] | 214,498 | Summarization, translation, and paraphrasing |
 |  MULTITuDE [[paper](https://arxiv.org/pdf/2310.13606)]  | 74,081  |                 MassiveSumm                  |
-|      M4 [[paper](https://openreview.net/pdf?id=ZTF2mX-Mpwh)]     | 122,481 |                Multi-generator, Multi-domain, and Multi-lingual                 |
+|      M4 [[paper](https://openreview.net/pdf?id=ZTF2mX-Mpwh)]     | 247,000 |                Multi-generator, Multi-domain, and Multi-lingual                 |
 |      M4GT-Bench [[paper](https://arxiv.org/pdf/2402.11175)]     | 138,465 |                Multi-lingual, Multi-domain, and Multi-generator                 |
 |      GTD*   [[paper](https://arxiv.org/pdf/2405.06652)] |  1,378  |        Open-source dataset, Unknown source        |
 |      Reviews24*   [[paper]](https://journals.sagepub.com/doi/10.1177/0261927X231200201)   |   1200    |       Self-built hotel review dataset        |
