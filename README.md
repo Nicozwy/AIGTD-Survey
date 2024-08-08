@@ -238,17 +238,10 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 
 
-
 ## Citation
-If you find this project useful in your research or work, please consider citing it:
+If you find this project useful in your research or work, please consider citing it.
 
-```
-@article{yang2024survey,
-  title={The Imitation Game Revisited: A Comprehensive Survey on Recent Advances in AI-Generated Text Detection},
-  author={Zhiwei Yang, Zhengjie Feng, Ruichi Nie, Hongrui Chen, Hanghan Zheng, Huiru Lin and Rongxin Huo},
-  year={2024}
-}
-```
+
 
 
 ## Acknowledgements
