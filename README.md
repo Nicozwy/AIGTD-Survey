@@ -10,6 +10,10 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 **Note:** We will keep updating to make this survey perfect. 
 
+
+##  News and Updates
+2024.1 Start the project
+
 ## Table of Contents
 - [Tackling Classifier Training](#tackling-classifier-training)
 - [Tackling Intrinsic Attributes](#tackling-intrinsic-attributes)
