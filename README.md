@@ -13,13 +13,13 @@ The papers are organized according to our AIGTD survey.
 2024.1 Start the project
 
 ## Table of Contents
-- [Tackle-Classifier-Training](#tackling-classifier-training)
-- [Tackle-Intrinsic-Attributes](#tackling-intrinsic-attributes)
-- [Tackle-Information-Embedding](#tackling-information-embedding)
+- [Tackle Classifier-Training](#tackling-classifier-training)
+- [Tackle Intrinsic-Attributes](#tackling-intrinsic-attributes)
+- [Tackle Information-Embedding](#tackling-information-embedding)
 - [Popular-Dataset-collection](#popular-dataset-collection)
 - [Citation](#citation)
 
-## Tackle-Classifier-Training
+## Tackle Classifier-Training
 1. Chuck Rosenberg, Martial Hebert, and Henry Schneiderman. Semisupervised self-training of object detection models. In Proceedings of the Seventh IEEE Workshops on Application of Computer Vision, pages 29–36, 2005. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4129456)]
 
 2. Abhinav Shrivastava, Abhinav Gupta, and Ross Girshick. Training region-based object detectors with online hard example mining. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 761–769, 2016. [[paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7780458)]
@@ -82,7 +82,7 @@ The papers are organized according to our AIGTD survey.
 |                                           BERT-based [[paper](https://ijemr.vandanapublications.com/index.php/ijemr/article/view/1565/1436)]                                            |           |     ✔️     |
 
 
-## Tackle-Intrinsic-Attributes
+## Tackle Intrinsic-Attributes
 1. Nathan Benaich and Ian Hogarth. State of ai report. London, UK, 2020. [[paper]](https://docs.google.com/presentation/d/1ZUimafgXCBSLsgbacd6-a-dqO7yLyzIl1ZJbiCBUUT4/edit#slide=id.g557254d430_0_0)
 2. Yuhong Mo, Hao Qin, Yushan Dong, Ziyi Zhu, and Zhenglin Li. Large language model (llm) ai text generation detection based on transformer deep learning algorithm. International Journal of Engineering and Management Research, 14(2):154–159, 2024. [[paper]](https://arxiv.org/pdf/2405.06652)
 3. Rongsheng Wang, Haoming Chen, Ruizhe Zhou, Han Ma, Yaofei Duan, Yanlan Kang, Songhua Yang, Baoyu Fan, and Tao Tan. Llm-detector: Improving ai-generated chinese text detection with open-source llm instruction tuning. arXiv preprint arXiv:2402.01158, 2024. [[paper]](https://arxiv.org/pdf/2402.01158)
@@ -152,7 +152,7 @@ The papers are organized according to our AIGTD survey.
 
 
 
-## Tackle-Information-Embedding
+## Tackle Information-Embedding
 1. Mercan Topkara, Cuneyt M Taskiran, and Edward J Delp III. Natural language watermarking. In Security, Steganography, and Watermarking of Multimedia Contents VII, volume 5681, pages 441–452. SPIE, 2005. [[paper](https://www.cerias.purdue.edu/tools_and_resources/bibtex_archive/archive/PSI000441.pdf)]
 
 2. Umut Topkara, Mercan Topkara, and Mikhail J Atallah. The hiding virtues of ambiguity: quantifiably resilient watermarking of natural language text through synonym substitutions. In Proceedings of the 8th workshop on Multimedia and security, pages 164–174, 2006. [[paper](http://umut.topkara.org/papers/ToToAt_MMSEC06.pdf)]
