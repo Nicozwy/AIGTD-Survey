@@ -13,9 +13,9 @@ The papers are organized according to our AIGTD survey.
 2024.1 Start the project
 
 ## Table of Contents
-- [Tackle Classifier-Training](#tackling-classifier-training)
-- [Tackle Intrinsic-Attributes](#tackling-intrinsic-attributes)
-- [Tackle Information-Embedding](#tackling-information-embedding)
+- [Tackle Classifier-Training](#tackle-classifier-training)
+- [Tackle Intrinsic-Attributes](#tackle-intrinsic-attributes)
+- [Tackle Information-Embedding](#tackle-information-embedding)
 - [Popular-Dataset-collection](#popular-dataset-collection)
 - [Citation](#citation)
 
