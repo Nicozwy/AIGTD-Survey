@@ -18,7 +18,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 - [Tackling Classifier Training](#tackling-classifier-training)
 - [Tackling Intrinsic Attributes](#tackling-intrinsic-attributes)
 - [Tackling Information Embedding](#tackling-information-embedding)
-- [Dataset collation](#dataset-collation)
+- [Popular Dataset collation](#dataset-collation)
 - [Citation](#citation)
 
 ## Tackling Classifier Training
@@ -199,7 +199,7 @@ The classification topology of AIGTD is constructed based on addressing three ke
 
 3. Massieh Kordi Boroujeny, Ya Jiang, Kai Zeng, and Brian Mark. Multi-bit distortion-free watermarking for large language models. arXiv preprint arXiv:2402.16578, 2024. [[paper](https://arxiv.org/pdf/2402.16578)]
 
-## Dataset collation
+## Popular Dataset collation
 
 |   Datasets   |  Size   |               Data Description               |
 | :----------: | :-----: | :------------------------------------------: |
