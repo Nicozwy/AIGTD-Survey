@@ -11,6 +11,7 @@ The papers are organized according to our AIGTD survey.
 
 ##  News and Updates
 2024.1 Start the project
+
 2024.10 refine the project
 
 ## Table of Contents
