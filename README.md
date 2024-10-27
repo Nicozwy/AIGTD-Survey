@@ -206,7 +206,7 @@ The papers are organized according to our AIGTD survey.
 | TuringBench [[paper](https://arxiv.org/pdf/2109.13296)] |   200,000   |                News articles                 |
 |     HC3 [[paper]](https://arxiv.org/pdf/2301.07597)     | 37,175  |   Reddit, Wikipedia, medicine and finance    |
 |    CHEAT  [[paper](https://arxiv.org/pdf/2304.12008)] | 35,304  |              Academic abstracts              |
-| GPT-Sentinel [[paper](https://arxiv.org/pdf/2305.07969)] | 29,395  |                 OpenWebText                  |
+| OpenGPTText [[paper](https://arxiv.org/pdf/2305.07969)] | 29,395  |                 GPT-3.5-turbo paraphrases of OpenWebText                  |
 |   MGTBench [[paper]](https://arxiv.org/pdf/2303.14822)  |  3000  |         Containing three enhanced datasets, i.e., Essay, WP, and Reuters          |
 |   HC3 Plus [[paper](https://arxiv.org/pdf/2309.02731)] | 214,498 | Summarization, translation, and paraphrasing |
 |  MULTITuDE [[paper](https://arxiv.org/pdf/2310.13606)]  | 74,081  |                 MassiveSumm                  |
