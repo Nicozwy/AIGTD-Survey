@@ -1,7 +1,10 @@
 <div align="center">
   <img src="imgs/AIGTD-logo.png" alt="AIGTD Survey" width="500"><br>
-  Survey on Recent Advances in AI-Generated Text Detection
+ The Imitation Game Revisited: A Comprehensive Survey on Recent Advances in AI-generated Text Detection.
 </div>
+<p align="center">
+  ☑️Accepted to ``Expert Systems with Applications'' (ESWA, SCI 1 top)
+</p>
 
 # Collection of papers and resources for AIGTD
 The papers are organized according to our AIGTD survey.
@@ -12,7 +15,9 @@ The papers are organized according to our AIGTD survey.
 ##  News and Updates
 2024.1 Start the project
 
-2024.10 refine the project
+2024.10 Refine the project
+
+2025.1 Accepted
 
 ## Table of Contents
 - [Tackle Classifier-Training](#tackle-classifier-training)
@@ -240,7 +245,16 @@ The papers are organized according to our AIGTD survey.
 
 ## Citation
 If you find this project useful in your research or work, please consider citing it.
-
+```
+@article{yang2024survey,
+  title={The Imitation Game Revisited: A Comprehensive Survey on Recent Advances in AI-Generated Text Detection},
+  author={Zhiwei Yang, Zhengjie Feng, Ruichi Nie, Hongrui Chen, Hanghan Zheng, Huiru Lin and Rongxin Huo},
+  journal={Expert Systems with Applications},
+  pages={xxxx},
+  year={2025},
+  publisher={Elsevier}
+}
+```
 
 
 
