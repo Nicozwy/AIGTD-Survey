@@ -246,7 +246,7 @@ The papers are organized according to our AIGTD survey.
 ## Citation
 If you find this project useful in your research or work, please consider citing it.
 ```
-@article{yang2024survey,
+@article{yang2025survey,
   title={The Imitation Game Revisited: A Comprehensive Survey on Recent Advances in AI-Generated Text Detection},
   author={Zhiwei Yang, Zhengjie Feng, Ruichi Nie, Hongrui Chen, Hanghan Zheng, Huiru Lin and Rongxin Huo},
   journal={Expert Systems with Applications},
