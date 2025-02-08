@@ -248,7 +248,7 @@ If you find this project useful in your research or work, please consider citing
 ```
 @article{yang2025survey,
   title={The Imitation Game Revisited: A Comprehensive Survey on Recent Advances in AI-Generated Text Detection},
-  author={Zhiwei Yang, Zhengjie Feng, Ruichi Nie, Hongrui Chen, Hanghan Zheng, Huiru Lin and Rongxin Huo},
+  author={Zhiwei Yang, Zhengjie Feng, Rongxin Huo, Huiru Lin, Hanghan Zheng, Ruichi Nie, Hongrui Chen},
   journal={Expert Systems with Applications},
   volume={272},
   pages={126694},
