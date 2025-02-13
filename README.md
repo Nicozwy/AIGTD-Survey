@@ -17,7 +17,7 @@ The papers are organized according to our AIGTD survey.
 
 2024.10 Refine the project
 
-2025.1 Accepted
+2025.1 Accepted to ESWA [PDF](https://www.sciencedirect.com/science/article/pii/S0957417425003161)
 
 ## Table of Contents
 - [Tackle Classifier-Training](#tackle-classifier-training)
