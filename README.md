@@ -13,9 +13,6 @@ The papers are organized according to our AIGTD survey.
 
 
 ##  News and Updates
-2024.1 Start the project
-
-2024.10 Refine the project
 
 2025.1 Accepted to ESWA [PDF](https://www.sciencedirect.com/science/article/pii/S0957417425003161)
 
